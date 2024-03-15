@@ -20,3 +20,5 @@ app.post('/machine-health', (req: Request, res: Response) => {
 app.listen(port, () => {
   console.log(`API is listening at http://localhost:${port}`);
 });
+
+export default app;
